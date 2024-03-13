@@ -5,7 +5,7 @@ ENV PYTHONBUFFERED 1
 
 COPY ./app /app
 WORKDIR /app
-EXPOSE 8000
+EXPOSE 8001
 
 ARG DEV=false
 RUN python -m venv /py && \
